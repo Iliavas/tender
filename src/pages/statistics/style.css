@@ -1,0 +1,37 @@
+.sized{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.container{
+    width: 800px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.regions{
+    display: flex;
+    gap: 10px;
+}
+
+.stats{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.company-stats{
+    margin-top: 20px;
+}
+.company-stats-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mapboxgl-ctrl{
+    display: none;
+}
